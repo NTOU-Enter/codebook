@@ -72,7 +72,7 @@
 \contentsline {subsection}{\numberline {6.1}PalTree}{19}{}%
 \contentsline {subsection}{\numberline {6.2}LIS}{19}{}%
 \contentsline {subsection}{\numberline {6.3}LCS to LIS}{19}{}%
-\contentsline {subsection}{\numberline {6.4}KMP}{19}{}%
+\contentsline {subsection}{\numberline {6.4}KMP}{20}{}%
 \contentsline {subsection}{\numberline {6.5}SAIS}{20}{}%
 \contentsline {subsection}{\numberline {6.6}Z Value}{20}{}%
 \contentsline {subsection}{\numberline {6.7}ZValue Palindrome}{20}{}%
