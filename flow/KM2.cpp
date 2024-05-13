@@ -1,4 +1,4 @@
-struct KM{ // max weight, for min negate the weights
+struct KM{ // max weight, for min negate the weights O(n^3)
   int n, mx[MXN], my[MXN], pa[MXN];
   ll g[MXN][MXN], lx[MXN], ly[MXN], sy[MXN];
   bool vx[MXN], vy[MXN];

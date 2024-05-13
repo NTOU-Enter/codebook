@@ -56,7 +56,7 @@
 \contentsline {subsection}{\numberline {4.25}Heart of Triangle}{14}{}%
 \contentsline {section}{\numberline {5}Graph}{14}{}%
 \contentsline {subsection}{\numberline {5.1}MaximumClique 最大團}{14}{}%
-\contentsline {subsection}{\numberline {5.2}MaximalClique 極大團}{14}{}%
+\contentsline {subsection}{\numberline {5.2}MaximalClique 極大團}{15}{}%
 \contentsline {subsection}{\numberline {5.3}Strongly Connected Component}{15}{}%
 \contentsline {subsection}{\numberline {5.4}Dynamic MST}{15}{}%
 \contentsline {subsection}{\numberline {5.5}Maximum General graph Matching}{16}{}%
