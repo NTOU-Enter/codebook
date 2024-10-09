@@ -1,5 +1,4 @@
-// const int MAXN = 262144;
-// const int MAXN = 524288;
+const int MAXN = 262144;
 // (must be 2^k)
 // before any usage, run pre_fft() first
 typedef complex<ld> cplx; //real() ,imag()
@@ -36,7 +35,8 @@ void fft(int n, cplx a[], bool inv=false){
   if(inv) for(i=0; i<n; i++) a[i] /= n;
 }
 cplx arr[MAXN+1];
-inline void mul(int _n,int a[],int _m,int b[],int ans[]){
+inline void mul(vector<int> &a, vector<int> &b, vector<int> &ans){
+  int _n=a.size(), _m=b.size();
   int n=1, sum=_n+_m-1;
   while(n<sum) n<<=1;
   for(int i=0; i<n; i++){
