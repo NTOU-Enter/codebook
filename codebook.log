@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.10)  9 OCT 2024 23:53
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.5.10)  10 OCT 2024 00:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,7 +870,7 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 LaTeX Font Warning: Font shape `TU/NotoSansCJKTC(0)/m/it' undefined
 (Font)              using `TU/NotoSansCJKTC(0)/m/n' instead on input line 15.
 
-) (basic/run.sh
+)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -878,7 +878,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-]) (flow/isap.cpp) (flow/zkwflow.cpp) (flow/dinic_BCW.cpp
+] (basic/run.sh) (flow/isap.cpp) (flow/zkwflow.cpp) (flow/dinic_BCW.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -991,6 +991,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [15]) (graph/MinMeanCycle.cpp) (graph/DirectedGraphMinCycle.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[16]) (graph/KSP.cpp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -999,52 +1005,40 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[16]) (graph/KSP.cpp) (graph/spfa.cpp
+[17] (graph/spfa.cpp) (graph/CountCycles.cpp)
+(graph/SystemOfDifferenceConstraints.tex) (graph/eulerPath.cpp) (tree/LCA.cpp)
+(tree/TreeHash.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[17]) (graph/LCA.cpp) (graph/CountCycles.cpp)
-(graph/SystemOfDifferenceConstraints.tex) (graph/eulerPath.cpp)
-(string/PalTree2.cpp
+[18]) (string/PalTree2.cpp) (string/LIS.cpp) (string/LCS_to_LIS.cpp)
+(string/KMP.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[18]) (string/LIS.cpp) (string/LCS_to_LIS.cpp) (string/KMP.cpp)
-(string/SAIS.cpp
+[19]) (string/SAIS.cpp) (string/Trie.cpp) (string/zvalue.cpp)
+(string/zvalue_palindrome.cpp) (string/minRotation.cpp) (string/cyclicLCS.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[19]) (string/zvalue.cpp) (string/zvalue_palindrome.cpp)
-(string/minRotation.cpp) (string/cyclicLCS.cpp) (dataStructure/seg_tree.cpp
+[20]) (dataStructure/seg_tree.cpp) (dataStructure/treap_split_key&kth.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[20]) (dataStructure/treap_split_key&kth.cpp) (dataStructure/DisjointSet1.cpp)
-(dataStructure/SparseTable.cpp) (dataStructure/extc_bt.cpp
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[21]) (others/SOS_dp.cpp) (others/numberCount.cpp) (others/maxtan.cpp)
-Underfull \hbox (badness 10000) in paragraph at lines 539--552
+[21]) (dataStructure/DisjointSet1.cpp) (dataStructure/SparseTable.cpp)
+(dataStructure/extc_bt.cpp) (others/SOS_dp.cpp) (others/numberCount.cpp)
+(others/maxtan.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 546--559
 [][]
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -1052,14 +1046,15 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[23
-
-] (codebook.aux)
+[23] (codebook.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1070,12 +1065,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21984 strings out of 409499
- 470964 string characters out of 5770958
- 3354406 words of memory out of 5000000
- 43624 multiletter control sequences out of 15000+600000
+ 22020 strings out of 409499
+ 471445 string characters out of 5770958
+ 3372406 words of memory out of 5000000
+ 43653 multiletter control sequences out of 15000+600000
  564795 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,12n,93p,419b,1653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,93p,419b,1651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on codebook.pdf (23 pages).
